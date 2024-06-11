@@ -11,6 +11,11 @@ import javax.swing.JOptionPane;
  * @author HP
  */
 public class MathUltil {
+    
+    //modify code in local, later upload to server
+    public void Print(){
+        
+    }
 
     public static void main(String[] args) {
         //Test case 01 
