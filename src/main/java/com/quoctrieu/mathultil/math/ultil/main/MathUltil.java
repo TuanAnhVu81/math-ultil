@@ -17,7 +17,7 @@ public class MathUltil {
         
     }
 
-    puplic void Math() {
+    public void Math() {
     }
 
     public static void main(String[] args) {
