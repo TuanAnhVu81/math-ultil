@@ -40,10 +40,13 @@ public class MathUtil1808 {
             throw new IllegalArgumentException("Invalid n , n must be between 0 to 20!!");
         if(n == 0 )
             return 1;
-        for (int i = 1; i <= n; i++) 
-            product*=i; // thuật toán nhân dồn vào
-      
-            
-        return product;
+//        for (int i = 1; i <= n; i++) 
+//            product*=i; // thuật toán nhân dồn vào
+                 
+        return n * getFactorial(n - 1);
+        //recursion - đệ quy - gọi là chính mình với 1 quy mô khác
     }
 }
+
+//5! = 1.2.3.4.5 = 5.4!
+//n! = n . (n-1)! công thúc đệ quy
