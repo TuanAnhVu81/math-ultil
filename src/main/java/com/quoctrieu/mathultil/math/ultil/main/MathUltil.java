@@ -17,6 +17,9 @@ public class MathUltil {
         
     }
 
+    puplic void Math() {
+    }
+
     public static void main(String[] args) {
         //Test case 01 
         // N= 0 , Ex value =1 , actual value = ? STATUS :PASS/FAILD
