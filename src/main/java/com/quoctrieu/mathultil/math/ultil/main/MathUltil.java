@@ -12,7 +12,7 @@ import javax.swing.JOptionPane;
  */
 public class MathUltil {
 
-    puplic void Math {
+    puplic void Math() {
     }
 
     public static void main(String[] args) {
